@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <form>
+        Value1: <input type="text" id="value1">
+        Value2: <input type="text" id="value2">
+
+    Operator:
+    <select id="operator">
+        <option value="add">Add</option>
+        <option value="min">Subtract</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+
+    </select>
+    <button type="button" onclick="calc()">Calculate</button>
+    </form>
+ 
+    <div id="result"></div>
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
